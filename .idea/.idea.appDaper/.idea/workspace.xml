@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71235ea9-1495-4e95-bcf9-1bd6e1870595" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Repository/Repositories/PlayerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Repositories/TeamRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Entities/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Base/RepositoryBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Entities/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Mappers/PlayerMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/1c/bd712047/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Entities/Team.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F84720BC-F71E-4B3E-9674-B24D7B155E92/3a/2213fa49/ConfigurationManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain/Contracts/IRepositoryBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Mappers/TeamMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repository/Mappers/RegisterMappings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Testes/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA91AA82-E599-43A3-8833-54FD04AE363C/b1/b18f0d27/Stopwatch.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/71/6ffd196d/ExecutionTimer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A32331CD-4A28-4B74-B020-1310D3F12CFD/65/e6a53abc/DommelMapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/e9/5c556f3a/ReflectionAbstractionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Domain/Class1.cs" />
+        <option value="$PROJECT_DIR$/Tests/Class1.cs" />
+        <option value="$PROJECT_DIR$/Repository/Class1.cs" />
+        <option value="$PROJECT_DIR$/Domain/Entities/BaseEntity.cs" />
+        <option value="$PROJECT_DIR$/Domain/Contracts/IRepositoryBase.cs" />
+        <option value="$PROJECT_DIR$/Repository/Repositories/TeamRepository.cs" />
+        <option value="$PROJECT_DIR$/Repository/Mappers/PlayerMap.cs" />
+        <option value="$PROJECT_DIR$/Repository/Mappers/TeamMap.cs" />
+        <option value="$PROJECT_DIR$/Testes/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Repository/appsettings.json" />
+        <option value="$PROJECT_DIR$/Repository/Base/RepositoryBase.cs" />
+        <option value="$PROJECT_DIR$/Domain/Entities/Player.cs" />
+        <option value="$PROJECT_DIR$/Domain/Entities/Team.cs" />
+        <option value="$PROJECT_DIR$/Repository/Mappers/RegisterMappings.cs" />
+        <option value="$PROJECT_DIR$/Repository/Repositories/PlayerRepository.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1StOtSuJMMYYsEe7pSLLq5dRhy6" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="DockerRegistry" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71235ea9-1495-4e95-bcf9-1bd6e1870595" name="Default Changelist" comment="" />
+      <created>1572379640307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572379640307</updated>
+      <workItem from="1572379643056" duration="1277000" />
+      <workItem from="1572436304196" duration="7615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Repository/Base/RepositoryBase.cs</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/Repository/Base/RepositoryBase.cs" initialLine="18">
+            <startOffsets>
+              <option value="470" />
+            </startOffsets>
+            <endOffsets>
+              <option value="485" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Testes/UnitTest1.cs</url>
+          <line>24</line>
+          <properties documentPath="$PROJECT_DIR$/Testes/UnitTest1.cs" initialLine="24">
+            <startOffsets>
+              <option value="478" />
+            </startOffsets>
+            <endOffsets>
+              <option value="524" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

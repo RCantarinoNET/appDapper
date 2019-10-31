@@ -1,0 +1,569 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Repository/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.30",
+          "Dapper.FluentMap.Dommel": "1.7.0",
+          "Domain": "1.0.0",
+          "Dommel": "2.0.0-beta5",
+          "System.Configuration.ConfigurationManager": "4.7.0-preview1.19504.10",
+          "System.Data.SqlClient": "4.8.0-preview1.19504.10"
+        },
+        "runtime": {
+          "Repository.dll": {}
+        }
+      },
+      "Dapper/2.0.30": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.30.32292"
+          }
+        }
+      },
+      "Dapper.Contrib/2.0.30": {
+        "dependencies": {
+          "Dapper": "2.0.30",
+          "Microsoft.CSharp": "4.6.0",
+          "System.Reflection.Emit": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.Contrib.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.30.32292"
+          }
+        }
+      },
+      "Dapper.FluentMap/1.8.0": {
+        "dependencies": {
+          "Dapper": "2.0.30"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.FluentMap.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
+      "Dapper.FluentMap.Dommel/1.7.0": {
+        "dependencies": {
+          "Dapper": "2.0.30",
+          "Dapper.FluentMap": "1.8.0",
+          "Dommel": "2.0.0-beta5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.FluentMap.Dommel.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "Dommel/2.0.0-beta5": {
+        "dependencies": {
+          "Dapper": "2.0.30",
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dommel.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.6.0": {},
+      "Microsoft.NETCore.Platforms/3.1.0-preview1.19504.10": {},
+      "Microsoft.Win32.Registry/4.7.0-preview1.19504.10": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0-preview1.19504.10",
+          "System.Security.Principal.Windows": "4.7.0-preview1.19504.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.7.0-preview1.19504.10": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0-preview1.19504.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0-preview1.19504.10": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.5.0": {},
+      "System.Configuration.ConfigurationManager/4.7.0-preview1.19504.10": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.7.0-preview1.19504.10",
+          "System.Security.Permissions": "4.7.0-preview1.19504.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.0-preview1.19504.10": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0-preview1.19504.10",
+          "System.Diagnostics.DiagnosticSource": "4.7.0-preview1.19504.10",
+          "System.Security.Principal.Windows": "4.7.0-preview1.19504.10",
+          "System.Text.Encoding.CodePages": "4.7.0-preview1.19504.10",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0-preview1.19504.10"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.0",
+            "fileVersion": "4.700.19.50410"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.0-preview1.19504.10": {
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0-preview1.19504.10": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0-preview1.19504.10",
+          "Microsoft.Win32.SystemEvents": "4.7.0-preview1.19504.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.50410"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.6.0": {},
+      "System.Reflection.Emit.Lightweight/4.6.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.7.0-preview1.19504.10": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.6.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0-preview1.19504.10": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0-preview1.19504.10",
+          "System.Security.Principal.Windows": "4.7.0-preview1.19504.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.7.0-preview1.19504.10": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Security.Permissions/4.7.0-preview1.19504.10": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0-preview1.19504.10",
+          "System.Windows.Extensions": "4.7.0-preview1.19504.10"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0-preview1.19504.10": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.7.0-preview1.19504.10": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0-preview1.19504.10",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.0-preview1.19504.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "System.Windows.Extensions/4.7.0-preview1.19504.10": {
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0-preview1.19504.10"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.50410"
+          }
+        }
+      },
+      "Domain/1.0.0": {
+        "dependencies": {
+          "Dapper.Contrib": "2.0.30"
+        },
+        "runtime": {
+          "Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nL0VEpvunjIQ3jTI1x27b7BS3BnRnn5b2vhxsU2pWEd9SljF5WUQLoV/83qXTm0yaHmejRV/ndI3EApGlrgPqw==",
+      "path": "dapper/2.0.30",
+      "hashPath": "dapper.2.0.30.nupkg.sha512"
+    },
+    "Dapper.Contrib/2.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JGolfLhdswl8/TiX3tOWeR2KcbKUk4QeRj8H1nQrmaGHjyfhFlVUI2oK0z30hfnSS/5hWYndB1KMKVn5+bnJig==",
+      "path": "dapper.contrib/2.0.30",
+      "hashPath": "dapper.contrib.2.0.30.nupkg.sha512"
+    },
+    "Dapper.FluentMap/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2GRcucxPuQpAQUIWEhcGz8M5079Sg09cQ8WSh7nKeOHLb+4rzX0hGwHP4kVLI3Sg4LFbIgzRvhEOf5upP/6sYQ==",
+      "path": "dapper.fluentmap/1.8.0",
+      "hashPath": "dapper.fluentmap.1.8.0.nupkg.sha512"
+    },
+    "Dapper.FluentMap.Dommel/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q09fK33EfJDSUBQxTwvuJ/MOe9TlAFsV6ygBsnaJvit77fF6YzqOat4xHIGrbovXafMINeXHq6eH7SfGt52PzA==",
+      "path": "dapper.fluentmap.dommel/1.7.0",
+      "hashPath": "dapper.fluentmap.dommel.1.7.0.nupkg.sha512"
+    },
+    "Dommel/2.0.0-beta5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cyo0bK8vHDJAFyr2bjC3Hre2YuiTbxGBnu/Ff9zKOurMHZE43FElNh88B9r/ru7oAoehHOEpvjRPX011dQzyug==",
+      "path": "dommel/2.0.0-beta5",
+      "hashPath": "dommel.2.0.0-beta5.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
+      "path": "microsoft.csharp/4.6.0",
+      "hashPath": "microsoft.csharp.4.6.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bS52lVUR5Mb/yuorV8cLSvsPDEOms1LTQ+bN8s3/rrdaU3VSpfvWGorRk5xftj1kyrJ7Dxlw/GADyyekoOfDnQ==",
+      "path": "microsoft.netcore.platforms/3.1.0-preview1.19504.10",
+      "hashPath": "microsoft.netcore.platforms.3.1.0-preview1.19504.10.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CXsd7k96HdyP0vV9T5mQQ0O1Lj00xJBHTQ+d8Y99mxu/GuTB9MYKeGE1b58AIaxF88maJOFMtt6WhiqEPC9ONw==",
+      "path": "microsoft.win32.registry/4.7.0-preview1.19504.10",
+      "hashPath": "microsoft.win32.registry.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fWr6+gMhfAHP2T7LRsyJSBKaepSMvciCJGXZn9sLOJTJF8ov5UEsM9F7DCDfG1p3etlgGfSYRTOQAloQrO/NTw==",
+      "path": "microsoft.win32.systemevents/4.7.0-preview1.19504.10",
+      "hashPath": "microsoft.win32.systemevents.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ITo7gZ7yGHMkNj1O6PRmK+i917jbWNs5CZN/jwVSh8hO+3+8C5roDkXJYbM1hA5LZAUagtm9ph5whvnDOTilDg==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0-preview1.19504.10",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pl3UwwYnLAsbTxdtQAZr1A6PKppwE60CQd3FUsd4J+iRLuvRejUsW0tAeKNlpKwCa9ZDSL5AOhRfbVOANRxcUw==",
+      "path": "system.configuration.configurationmanager/4.7.0-preview1.19504.10",
+      "hashPath": "system.configuration.configurationmanager.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.8.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6isAINOX/v56q7JLaC9XDXzc7T/yh62QR+pa+Jt0ayjmYmLRCmzyt4rTy5jWe15ZcQfS9yQNxIzwyO7yGs6Zbg==",
+      "path": "system.data.sqlclient/4.8.0-preview1.19504.10",
+      "hashPath": "system.data.sqlclient.4.8.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CxeUzuw9Lz1+6gkPpQI83BeoUNxn6VnDF28qazxSRyRzWSzLzoeh9ObYG7LYqcPckgm0UaE9nQdd7oDq5ncMKg==",
+      "path": "system.diagnostics.diagnosticsource/4.7.0-preview1.19504.10",
+      "hashPath": "system.diagnostics.diagnosticsource.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WbOy+U7/x8K4K0FmRrSzOBJgnrmUQ5jt5x8LPsqaMs4IWMAegStFgBme5z1+qcee6dAgNVGesNTMsJniRi68yA==",
+      "path": "system.drawing.common/4.7.0-preview1.19504.10",
+      "hashPath": "system.drawing.common.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qAo4jyXtC9i71iElngX7P2r+zLaiHzxKwf66sc3X91tL5Ks6fnQ1vxL04o7ZSm3sYfLExySL7GN8aTpNYpU1qw==",
+      "path": "system.reflection.emit/4.6.0",
+      "hashPath": "system.reflection.emit.4.6.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j/V5HVvxvBQ7uubYD0PptQW2KGsi1Pc2kZ9yfwLixv3ADdjL/4M78KyC5e+ymW612DY8ZE4PFoZmWpoNmN2mqg==",
+      "path": "system.reflection.emit.lightweight/4.6.0",
+      "hashPath": "system.reflection.emit.lightweight.4.6.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zw6YIPYZNJdb5fVVlLLG0i9NO/p+10u8LM8ApWat+9oLo15xaCGC6XyYALrvc+DzmxkwWLxU6n8SNf71V+x3+Q==",
+      "path": "system.runtime.compilerservices.unsafe/4.7.0-preview1.19504.10",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PGk/B6+DoaHlC4PAc7OWPmxI91JtH4zXHHmwlSQAOnL5sll3hgX8kVR9loCnVHfshSo1vP8vt15Xy84xyKiqKw==",
+      "path": "system.security.accesscontrol/4.7.0-preview1.19504.10",
+      "hashPath": "system.security.accesscontrol.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eE5dVZ5PY0AGETXe/P3V0MStWW17w2A/FMy5B3TbvZwW0RoQNTCZ5nVBH6J6pZlcIBRHEjhLLxwys8liRxRM/A==",
+      "path": "system.security.cryptography.protecteddata/4.7.0-preview1.19504.10",
+      "hashPath": "system.security.cryptography.protecteddata.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kySG4PD6uMUxBay9gS4CWcsAA4Lsz2FOXN8qx9++jvYupV14UHpJfzc37qZWHdmEjfwpu+Op1wFz946+PXrY/A==",
+      "path": "system.security.permissions/4.7.0-preview1.19504.10",
+      "hashPath": "system.security.permissions.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Df++ZTMSEaRRyov1jZ7VSm8GemEu9cJJ+QY1y6wvF631OvS5dts98RhuoqcZxACVkNRIzl5ThIqd46qd7b+Vg==",
+      "path": "system.security.principal.windows/4.7.0-preview1.19504.10",
+      "hashPath": "system.security.principal.windows.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aYpmMGgjDYpDYtDpUHwnSqSKgatkoZ4aSteVs6WKxo3/dRbHnL5rQ3QX9g7teACCIw8T2KW9OUxIg0b1kZEABg==",
+      "path": "system.text.encoding.codepages/4.7.0-preview1.19504.10",
+      "hashPath": "system.text.encoding.codepages.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "System.Windows.Extensions/4.7.0-preview1.19504.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2Osepldg32x9vUev3XVvFN6bWAfn0fPjjxm0NlblWpb6mRCh5QE8bcaBLmQjc0w90Ws/WZYvimfJvaddxo31RA==",
+      "path": "system.windows.extensions/4.7.0-preview1.19504.10",
+      "hashPath": "system.windows.extensions.4.7.0-preview1.19504.10.nupkg.sha512"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

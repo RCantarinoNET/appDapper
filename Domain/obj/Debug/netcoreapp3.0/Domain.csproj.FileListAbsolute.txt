@@ -1,0 +1,8 @@
+D:\Pessoal\appDaper\Domain\bin\Debug\netcoreapp3.0\Domain.deps.json
+D:\Pessoal\appDaper\Domain\bin\Debug\netcoreapp3.0\Domain.dll
+D:\Pessoal\appDaper\Domain\bin\Debug\netcoreapp3.0\Domain.pdb
+D:\Pessoal\appDaper\Domain\obj\Debug\netcoreapp3.0\Domain.csprojAssemblyReference.cache
+D:\Pessoal\appDaper\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfoInputs.cache
+D:\Pessoal\appDaper\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfo.cs
+D:\Pessoal\appDaper\Domain\obj\Debug\netcoreapp3.0\Domain.dll
+D:\Pessoal\appDaper\Domain\obj\Debug\netcoreapp3.0\Domain.pdb
